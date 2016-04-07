@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KARMELINA</Machine>
+    <WindowsUser>lina</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>0b0648f8-df07-4209-b3b8-a16ec10a5f16</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>707F941DFC57958D527AB88DE0A10C9A6D407BC9C9145985B3AFC2E84AE97093</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>0b0648f8-df07-4209-b3b8-a16ec10a5f16_1.0.0.0_neutral__vshpexm8w1ydy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>0b0648f8-df07-4209-b3b8-a16ec10a5f16_vshpexm8w1ydy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>0b0648f8-df07-4209-b3b8-a16ec10a5f16</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=lina</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-06T18:07:15.557</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\HealthApp.Windows.exe">
+      <PackagePath>HealthApp.Windows.exe</PackagePath>
+      <Modified>2016-04-06T18:07:10.939</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\Assets\logo small.scale-100.png">
+      <PackagePath>Assets\logo small.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-12T01:04:04.029</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\Assets\logo.scale-100.png">
+      <PackagePath>Assets\logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-12T01:01:41.240</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\Assets\logo1.png">
+      <PackagePath>Assets\logo1.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-12T01:00:27.571</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\Assets\logo2.scale-100.png">
+      <PackagePath>Assets\logo2.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-12T01:02:39.480</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\Assets\logo3.scale-100.png">
+      <PackagePath>Assets\logo3.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-12T01:03:17.770</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\Assets\splash screen.scale-100.png">
+      <PackagePath>Assets\splash screen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-10T10:17:36.679</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-02-10T10:31:58.293</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\0152.jpg">
+      <PackagePath>Assets\0152.jpg</PackagePath>
+      <Modified>2015-01-22T01:51:53.324</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\1c5f0161-06d2-41d8-8910-fd2eb8cd58ad.jpg">
+      <PackagePath>Assets\1c5f0161-06d2-41d8-8910-fd2eb8cd58ad.jpg</PackagePath>
+      <Modified>2015-01-02T13:06:25.422</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\56newpic1.jpg">
+      <PackagePath>Assets\56newpic1.jpg</PackagePath>
+      <Modified>2015-01-02T13:16:33.449</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty.jpg">
+      <PackagePath>Assets\beauty.jpg</PackagePath>
+      <Modified>2015-01-20T03:53:37.224</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty1.jpg">
+      <PackagePath>Assets\beauty1.jpg</PackagePath>
+      <Modified>2015-01-20T04:12:19.579</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty2.jpg">
+      <PackagePath>Assets\beauty2.jpg</PackagePath>
+      <Modified>2015-01-20T05:12:40.265</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty3.jpg">
+      <PackagePath>Assets\beauty3.jpg</PackagePath>
+      <Modified>2015-01-20T05:36:54.873</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty4.jpg">
+      <PackagePath>Assets\beauty4.jpg</PackagePath>
+      <Modified>2015-01-20T10:00:36.735</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty5.jpg">
+      <PackagePath>Assets\beauty5.jpg</PackagePath>
+      <Modified>2015-01-23T05:08:25.725</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty6.jpg">
+      <PackagePath>Assets\beauty6.jpg</PackagePath>
+      <Modified>2015-01-23T06:56:50.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty7.jpg">
+      <PackagePath>Assets\beauty7.jpg</PackagePath>
+      <Modified>2015-01-23T07:00:43.699</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty8.jpg">
+      <PackagePath>Assets\beauty8.jpg</PackagePath>
+      <Modified>2015-01-23T07:05:54.211</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty9.jpg">
+      <PackagePath>Assets\beauty9.jpg</PackagePath>
+      <Modified>2015-01-23T07:08:42.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\behealthy.jpg">
+      <PackagePath>Assets\behealthy.jpg</PackagePath>
+      <Modified>2015-01-15T05:04:04.828</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\calorie.jpg">
+      <PackagePath>Assets\calorie.jpg</PackagePath>
+      <Modified>2015-01-19T14:51:35.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\e1.jpg">
+      <PackagePath>Assets\e1.jpg</PackagePath>
+      <Modified>2015-01-23T07:56:59.026</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\e2.jpg">
+      <PackagePath>Assets\e2.jpg</PackagePath>
+      <Modified>2015-01-23T07:57:42.345</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\e3.jpg">
+      <PackagePath>Assets\e3.jpg</PackagePath>
+      <Modified>2015-01-23T07:58:30.036</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\exercise.jpg">
+      <PackagePath>Assets\exercise.jpg</PackagePath>
+      <Modified>2015-01-10T07:54:35.869</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\exercise1.jpg">
+      <PackagePath>Assets\exercise1.jpg</PackagePath>
+      <Modified>2015-01-11T01:17:17.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\food.jpg">
+      <PackagePath>Assets\food.jpg</PackagePath>
+      <Modified>2015-01-22T01:57:51.059</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\food1.jpg">
+      <PackagePath>Assets\food1.jpg</PackagePath>
+      <Modified>2015-01-22T01:55:35.497</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthapp.jpg">
+      <PackagePath>Assets\healthapp.jpg</PackagePath>
+      <Modified>2015-01-15T12:41:33.307</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy.jpg">
+      <PackagePath>Assets\healthy.jpg</PackagePath>
+      <Modified>2015-01-19T04:53:26.611</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy1.jpg">
+      <PackagePath>Assets\healthy1.jpg</PackagePath>
+      <Modified>2015-01-20T12:36:04.704</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy10.jpg">
+      <PackagePath>Assets\healthy10.jpg</PackagePath>
+      <Modified>2015-01-22T21:07:54.235</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy11.jpg">
+      <PackagePath>Assets\healthy11.jpg</PackagePath>
+      <Modified>2015-01-22T21:14:14.819</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy12.jpg">
+      <PackagePath>Assets\healthy12.jpg</PackagePath>
+      <Modified>2015-01-22T21:20:13.313</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy2.jpg">
+      <PackagePath>Assets\healthy2.jpg</PackagePath>
+      <Modified>2015-01-22T20:25:06.154</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy3.jpg">
+      <PackagePath>Assets\healthy3.jpg</PackagePath>
+      <Modified>2015-01-22T20:31:06.726</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy4.jpg">
+      <PackagePath>Assets\healthy4.jpg</PackagePath>
+      <Modified>2015-01-22T20:37:53.200</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy5.jpg">
+      <PackagePath>Assets\healthy5.jpg</PackagePath>
+      <Modified>2015-01-22T20:42:33.246</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy6.jpg">
+      <PackagePath>Assets\healthy6.jpg</PackagePath>
+      <Modified>2015-01-22T20:47:05.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy7.jpg">
+      <PackagePath>Assets\healthy7.jpg</PackagePath>
+      <Modified>2015-01-22T20:50:03.282</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy8.jpg">
+      <PackagePath>Assets\healthy8.jpg</PackagePath>
+      <Modified>2015-01-22T20:56:13.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy9.jpg">
+      <PackagePath>Assets\healthy9.jpg</PackagePath>
+      <Modified>2015-01-22T21:02:40.674</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\r1.jpg">
+      <PackagePath>Assets\r1.jpg</PackagePath>
+      <Modified>2015-01-23T07:22:16.173</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\r2.jpg">
+      <PackagePath>Assets\r2.jpg</PackagePath>
+      <Modified>2015-01-23T07:41:02.004</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\r3.jpg">
+      <PackagePath>Assets\r3.jpg</PackagePath>
+      <Modified>2015-01-23T07:45:11.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\r4.jpg">
+      <PackagePath>Assets\r4.jpg</PackagePath>
+      <Modified>2015-01-23T07:48:36.251</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\steak.jpg">
+      <PackagePath>Assets\steak.jpg</PackagePath>
+      <Modified>2015-01-03T05:37:13.988</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\weight.jpg">
+      <PackagePath>Assets\weight.jpg</PackagePath>
+      <Modified>2015-01-10T07:15:06.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\error.wav">
+      <PackagePath>Assets\error.wav</PackagePath>
+      <Modified>2008-04-30T04:27:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\reminder.gif">
+      <PackagePath>Assets\reminder.gif</PackagePath>
+      <Modified>2015-01-03T05:44:51.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+      <Modified>2015-01-27T09:32:09.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\HealthApp.Windows.xr.xml">
+      <PackagePath>HealthApp.Windows.xr.xml</PackagePath>
+      <Modified>2016-04-06T18:07:09.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-01-15T06:57:03.366</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\bmi.xbf">
+      <PackagePath>bmi.xbf</PackagePath>
+      <Modified>2015-01-22T21:20:58.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\calorie.xbf">
+      <PackagePath>calorie.xbf</PackagePath>
+      <Modified>2015-01-23T06:28:07.852</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\ex.xbf">
+      <PackagePath>ex.xbf</PackagePath>
+      <Modified>2015-02-13T07:16:05.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+      <Modified>2015-02-13T07:50:48.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\recipes.xbf">
+      <PackagePath>recipes.xbf</PackagePath>
+      <Modified>2015-01-28T01:08:57.528</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+      <Modified>2015-02-13T07:16:05.330</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+      <Modified>2015-02-13T07:16:05.332</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-04-06T18:07:12.995</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

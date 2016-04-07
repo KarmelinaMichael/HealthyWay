@@ -1,0 +1,257 @@
+﻿<Page x:ConnectionId='1' 
+    x:Name="pageRoot"
+    x:Class="HealthApp.calorie"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HealthApp"
+    xmlns:common="using:HealthApp.Common"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Page.Resources >
+        <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
+        <x:String x:Key="AppName">My Application</x:String>
+    </Page.Resources>
+
+    <!--
+        This grid acts as a root panel for the page that defines two rows:
+        * Row 0 contains the back button and page title
+        * Row 1 contains the rest of the page layout
+    -->
+    <Grid Background="#FFA00762" >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="140"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Back button and page title -->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="120"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button x:ConnectionId='174' x:Name="backButton" Margin="39,59,39,0" Command="{Binding NavigationHelper.GoBackCommand, ElementName=pageRoot}"
+                        Style="{StaticResource NavigationBackButtonNormalStyle}" RequestedTheme="Light"
+                        VerticalAlignment="Top"
+                        AutomationProperties.Name="Back"
+                        AutomationProperties.AutomationId="BackButton"
+                        AutomationProperties.ItemType="Navigation Button"/>
+            <TextBlock x:ConnectionId='175' x:Name="pageTitle" Text="Health Calorie-Counter" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
+                        IsHitTestVisible="false" TextWrapping="NoWrap" RequestedTheme="Light" VerticalAlignment="Bottom" Margin="0,0,30,40"/>
+        </Grid>
+
+        <ListBox x:ConnectionId='2' SelectedValue="select" ScrollViewer.HorizontalScrollMode="Enabled" ScrollViewer.HorizontalScrollBarVisibility="Visible"                         x:Name="listbox"  Grid.Row="1" Margin="41,20,924,388" ScrollViewer.VerticalScrollMode="Enabled" Background="#FFBB4B8D" >
+            <TextBlock Text="Milk and Milk products" FontSize="26"  TextAlignment="Center"  Width="391" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            <TextBlock x:ConnectionId='155' Text="Full-fat milk(1 cup)" FontSize="24" x:Name="milk1"/>
+            <TextBlock x:ConnectionId='156' x:Name="milk2" Text="Low fat milk(1 cup)" FontSize="24"/>
+            <TextBlock x:ConnectionId='157' x:Name="milk3" Text="Cow's milk(1 cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='158' x:Name="milk4" Text="Goat milk(1 cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='159' x:Name="milk5" Text="Sweetened Condensed Milk(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='160' x:Name="milk6" Text="Skim milk powder(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='161' x:Name="milk7" Text="Full-fat chocolate milk(1 cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='162' x:Name="milk8" Text="Strawberry Milk(1 cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='163' x:Name="milk9" Text="Cheddar cheese(Slice, 28 gm)" FontSize="24" />
+            <TextBlock x:ConnectionId='164' x:Name="milk10" Text="Gouda cheese(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='165' x:Name="milk11" Text="Mozzarella cheese(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='166' x:Name="milk12" Text="Kraft Cheese(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='167' x:Name="milk13" Text="Cream focused(1 spoon)" FontSize="24" />
+            <TextBlock x:ConnectionId='168' x:Name="milk14" Text="Cream Medium(1 spoon)" FontSize="24" />
+            <TextBlock x:ConnectionId='169' x:Name="milk15" Text="yogurt full-fat(1 spoon)" FontSize="24" />
+            <TextBlock x:ConnectionId='170' x:Name="milk16" Text="yogurt skim(1 spoon)" FontSize="24" />
+            <TextBlock Text="Ice Cream" FontSize="26"  TextAlignment="Center"  Width="391" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False"  />
+            <TextBlock x:ConnectionId='171' x:Name="milk17" Text="Vanilla(1 ball)" FontSize="24" />
+            <TextBlock x:ConnectionId='172' x:Name="milk18" Text="Cocoa(1 ball)" FontSize="24" />
+            <TextBlock x:ConnectionId='173' x:Name="milk19" Text="Strawberries(1 ball)" FontSize="24" />
+        </ListBox>
+        
+            
+       
+        <ListBox x:ConnectionId='3' SelectedValue="select" ScrollViewer.HorizontalScrollMode="Enabled" ScrollViewer.HorizontalScrollBarVisibility="Visible"                         x:Name="listbox1"  Grid.Row="1" Margin="486,20,479,388" ScrollViewer.VerticalScrollMode="Enabled" Background="#FFBB4B8D" >
+            <TextBlock Text="Juices and Drinks" FontSize="26"  TextAlignment="Center"  Width="391" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            <TextBlock x:ConnectionId='128' x:Name="d1" Text="Apple juice(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='129' x:Name="d2" Text="Apricot juice,canned(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='130' x:Name="d3" Text="Grape juice,canned(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='131' x:Name="d4" Text="Lemon juice,canned(Spoon to eat)" FontSize="24" />
+            <TextBlock x:ConnectionId='132' x:Name="d5" Text="Fresh orange juice" FontSize="24" />
+            <TextBlock x:ConnectionId='133' x:Name="d6"  Text="Canned orange juice(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='134' x:Name="d7"  Text="Grapefruit juice,canned(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='135' x:Name="d8"  Text="Grapefruit juice,unsweetened(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='136' x:Name="d9"  Text="Canned peach juice(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='137' x:Name="d10"  Text="Canned pear juice(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='138' x:Name="d11"  Text="Canned pineapple juice(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='139' x:Name="d12"  Text="Canned tomato juice(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='140' x:Name="d13"  Text="Guava juice(1 cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='141' x:Name="d14"  Text="Mango juice(1 cup)" FontSize="24" />
+
+            <TextBlock Text="Hot Drinks" FontSize="26"  TextAlignment="Center"  Width="391" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            <TextBlock x:ConnectionId='142' x:Name="d15"  Text="Nescafe coffee without sugar(Teaspoon)" FontSize="24" Width="500" />
+            <TextBlock x:ConnectionId='143' x:Name="d16"  Text="Instant coffee without caffeine(Teaspoon)" FontSize="24" />
+            <TextBlock x:ConnectionId='144' x:Name="d17"  Text="Tea without sugar(1 cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='145' x:Name="d18"  Text="American coffee(1 cup)" FontSize="24" />
+
+            <TextBlock Text="Soft Drinks" FontSize="26"  TextAlignment="Center"  Width="391" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            <TextBlock x:ConnectionId='146' x:Name="d19"  Text="Pepsi-Cola(240 ml cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='147' x:Name="d20"  Text="Diet Pepsi-Cola(240 ml cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='148' x:Name="d21"  Text="Seven Up(240 ml cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='149' x:Name="d22"  Text="Sprite(240 ml cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='150' x:Name="d23"  Text="Fanta(240 ml cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='151' x:Name="d24"  Text="Coca-Cola(240 ml cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='152' x:Name="d25"  Text="Diet Coca-Cola(240 ml cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='153' x:Name="d26"  Text="Cream soda(240 ml cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='154' x:Name="d27"  Text="Drink grape gas(240 ml cup)" FontSize="24" />
+        </ListBox>
+        <ListBox x:ConnectionId='4' SelectedValue="select" ScrollViewer.HorizontalScrollMode="Enabled" ScrollViewer.HorizontalScrollBarVisibility="Visible"                         x:Name="listbox2"  Grid.Row="1" Margin="929,20,36,388" ScrollViewer.VerticalScrollMode="Enabled" Background="#FFBB4B8D" >
+            <TextBlock Text="Meat and Chicken" FontSize="26"  TextAlignment="Center"  Width="391" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            <TextBlock x:ConnectionId='116' x:Name="m1"  Text="Chicken leg (hip),without skin,grilled(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='117' x:Name="m2"  Text="Chicken leg (hip),with skin,grilled(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='118' x:Name="m3"  Text="Chicken breast,without skin,grilled(Half a breast)" FontSize="24" />
+            <TextBlock x:ConnectionId='119' x:Name="m4"  Text="Chicken breast,with skin,grilled(Half a breast)" FontSize="24" />
+            <TextBlock x:ConnectionId='120' x:Name="m5"  Text="Chicken breast,without skin,fried(Half a breast)" FontSize="24" />
+            <TextBlock x:ConnectionId='121' x:Name="m6"  Text="Chicken wings,with skin,grilled(1 wing)" FontSize="24" />
+            <TextBlock x:ConnectionId='122' x:Name="m7"  Text="Chicken livers,cooked(6 pieces 104 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='123' x:Name="m8"  Text="Duck meat,without skin,roasted(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='124' x:Name="m9"  Text="Red dark meat,without skin(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='125' x:Name="m10"  Text="Red dark meat,with skin(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='126' x:Name="m11"  Text="Red light meat,without skin(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='127' x:Name="m12"  Text="Red light meat,with skin(85 g)" FontSize="24" />
+        </ListBox>
+        <ListBox x:ConnectionId='5' SelectedValue="select" ScrollViewer.HorizontalScrollMode="Enabled" ScrollViewer.HorizontalScrollBarVisibility="Visible"                         x:Name="listbox3"  Grid.Row="1" Margin="41,288,924,126" ScrollViewer.VerticalScrollMode="Enabled" Background="#FFBB4B8D" >
+            <TextBlock Text="Fish and Shellfish" FontSize="26"  TextAlignment="Center"  Width="391" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            <TextBlock x:ConnectionId='102' x:Name="f1"  Text="Sardines,canned in oil(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='103' x:Name="f2"  Text="Anchovies,canned in oil(21 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='104' x:Name="f3"  Text="Tuna,canned in water(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='105' x:Name="f4"  Text="Tuna,canned in oil(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='106' x:Name="f5"  Text="Smoked salmon(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='107' x:Name="f6"  Text="Grilled Fish(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='108' x:Name="f7"  Text="Fish fried with rusk(3 pieces, 85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='109' x:Name="f8"  Text="Shrimp fried with rusk(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='110' x:Name="f9"  Text="Crab,canned(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='111' x:Name="f10"  Text="Shrimp,cooked(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='112' x:Name="f11"  Text="Oyster,uncooked(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='113' x:Name="f12"  Text="Oysters,fried(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='114' x:Name="f13"  Text="Oysters,fried with rusk(85 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='115' x:Name="f14"  Text="Caviar,black or red(1 tablespoon)" FontSize="24" />
+        </ListBox>
+        <ListBox x:ConnectionId='6' SelectedValue="select" ScrollViewer.HorizontalScrollMode="Enabled" ScrollViewer.HorizontalScrollBarVisibility="Visible"                         x:Name="listbox4"  Grid.Row="1" Margin="486,288,479,126" ScrollViewer.VerticalScrollMode="Enabled" Background="#FFBB4B8D" >
+
+            <TextBlock Text="Legumes" FontSize="26"  TextAlignment="Center"  Width="391" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            <TextBlock x:ConnectionId='87' x:Name="l1"  Text="Beans,boiled(1 cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='88' x:Name="l2"  Text="Dry beans(1 cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='89' x:Name="l3"  Text="Beans(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='90' x:Name="l4"  Text="Flour(1 cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='91' x:Name="l5"  Text="Nuts mixed with roasted and dry peanuts(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='92' x:Name="l6"  Text="Mixed nuts roasted in oil(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='93' x:Name="l7"  Text="Sunflower seeds,roasted and dry(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='94' x:Name="l8"  Text="Sunflower seed,roasted in oil(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='95' x:Name="l9"  Text="Pistachios,dry and roasted(Half a cup)" FontSize="24" />
+            <TextBlock x:ConnectionId='96' x:Name="l10"  Text="Peanuts,dry and roasted(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='97' x:Name="l11"  Text="Peanuts,roasted in oil(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='98' x:Name="l12"  Text="Peanut butter(Spoon 16 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='99' x:Name="l13"  Text="Coconut(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='100' x:Name="l14"  Text="Sesame(28 g)" FontSize="24" />
+            <TextBlock x:ConnectionId='101' x:Name="l15"  Text="Pine(28 g)" FontSize="24" />
+        </ListBox>
+        <ListBox x:ConnectionId='7' SelectedValue="select" ScrollViewer.HorizontalScrollMode="Enabled" ScrollViewer.HorizontalScrollBarVisibility="Visible"                         x:Name="listbox5"  Grid.Row="1" Margin="929,288,36,126" ScrollViewer.VerticalScrollMode="Enabled" Background="#FFBB4B8D" >
+
+            <TextBlock  Text="Vegitables and Fruits" FontSize="26"  TextAlignment="Center" Width="391" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            <TextBlock x:ConnectionId='9'  x:Name="v1" Text="Carrot" FontSize="24" />
+            <TextBlock x:ConnectionId='10'  x:Name="v2" Text="Carrot,cooked" FontSize="24" />
+            <TextBlock x:ConnectionId='11'  x:Name="v3" Text="Cauliflower,cooked" FontSize="24" />
+            <TextBlock x:ConnectionId='12'  x:Name="v4" Text="Cauliflower,uncooked" FontSize="24" />
+            <TextBlock x:ConnectionId='13'  x:Name="v5" Text="Cucumbers,chopped" FontSize="24" />
+            <TextBlock x:ConnectionId='14' x:Name="v6" Text="Fried eggplant" FontSize="24" />
+            <TextBlock x:ConnectionId='15'  x:Name="v7" Text="Eggplant,cooked" FontSize="24" />
+            <TextBlock x:ConnectionId='16'  x:Name="v8" Text="Green beans,cooked" FontSize="24" />
+            <TextBlock x:ConnectionId='17' x:Name="v9" Text="Green beans,canned" FontSize="24" />
+            <TextBlock x:ConnectionId='18'  x:Name="v10" Text="Cabbage,cooked" FontSize="24" />
+            <TextBlock x:ConnectionId='19'  x:Name="v11" Text="Cabbage,uncooked" FontSize="24" />
+            <TextBlock x:ConnectionId='20'  x:Name="v12" Text="Corn" FontSize="24" />
+            <TextBlock x:ConnectionId='21' x:Name="v13" Text="Mushrooms,fresh" FontSize="24" />
+            <TextBlock x:ConnectionId='22'  x:Name="v14" Text="Mushroom,canned" FontSize="24" />
+            <TextBlock x:ConnectionId='23' x:Name="v15" Text="Lettuce" FontSize="24" />
+            <TextBlock x:ConnectionId='24' x:Name="v16" Text="Mixed vegetables" FontSize="24" />
+            <TextBlock x:ConnectionId='25' x:Name="v17" Text="Okra, cooked and chopped" FontSize="24" />
+            <TextBlock x:ConnectionId='26'  x:Name="v18" Text="Fresh onions,chopped" FontSize="24" />
+            <TextBlock x:ConnectionId='27' x:Name="v19" Text="Green onions,chopped" FontSize="24" />
+            <TextBlock x:ConnectionId='28' x:Name="v20" Text="Green peas,cooked" FontSize="24" />
+            <TextBlock x:ConnectionId='29' x:Name="v21" Text="Peppers, chopped" FontSize="24" />
+            <TextBlock x:ConnectionId='30' x:Name="v22" Text="Hot pepper" FontSize="24" />
+            <TextBlock x:ConnectionId='31' x:Name="v23" Text="Baked potato, with the peel" FontSize="24" />
+            <TextBlock x:ConnectionId='32' x:Name="v24" Text="Fried potato" FontSize="24" />
+            <TextBlock x:ConnectionId='33' x:Name="v25" Text="Squash" FontSize="24" />
+            <TextBlock x:ConnectionId='34' x:Name="v26" Text="Red rweid radish" FontSize="24" />
+            <TextBlock x:ConnectionId='35' x:Name="v27" Text="Chopped spinach" FontSize="24" />
+            <TextBlock x:ConnectionId='36' x:Name="v28" Text="Zucchini, chopped and cooked" FontSize="24" />
+            <TextBlock x:ConnectionId='37' x:Name="v29" Text="Sweet potatoes, mashed" FontSize="24" />
+            <TextBlock x:ConnectionId='38' x:Name="v30" Text="Red tomatoes" FontSize="24" />
+            <TextBlock x:ConnectionId='39'  x:Name="v31" Text="Green beans" FontSize="24" />
+            <TextBlock x:ConnectionId='40' x:Name="v32" Text="Cabbage" FontSize="24" />
+            <TextBlock x:ConnectionId='41' x:Name="v33" Text="Garlic" FontSize="24" />
+            <TextBlock x:ConnectionId='42' x:Name="v34" Text="Grape leaves" FontSize="24" />
+            <TextBlock x:ConnectionId='43' x:Name="v35" Text="Mint" FontSize="24" />
+            <TextBlock x:ConnectionId='44' x:Name="v36" Text="Black olives" FontSize="24" />
+            <TextBlock x:ConnectionId='45' x:Name="v37" Text="Green olives" FontSize="24" />
+            <TextBlock x:ConnectionId='46' x:Name="v38" Text="Parsley" FontSize="24" />
+            <TextBlock x:ConnectionId='47' x:Name="v39" Text="White rweid radishes" FontSize="24" />
+            <TextBlock x:ConnectionId='48' x:Name="v40" Text="Basil" FontSize="24" />
+            <TextBlock x:ConnectionId='49' x:Name="v41" Text="Sugar-cane" FontSize="24" />
+            <TextBlock Text="Fresh Fruits" FontSize="26"  Width="391" TextAlignment="Center"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            <TextBlock x:ConnectionId='50' x:Name="v42" Text="Apples" FontSize="24" />
+            <TextBlock x:ConnectionId='51' x:Name="v43" Text="Apricot" FontSize="24" />
+            <TextBlock x:ConnectionId='52' x:Name="v44" Text="Banana" FontSize="24" />
+            <TextBlock x:ConnectionId='53' x:Name="v45" Text="Fig" FontSize="24" />
+            <TextBlock x:ConnectionId='54' x:Name="v46" Text="Grapefruit" FontSize="24" />
+            <TextBlock x:ConnectionId='55' x:Name="v47" Text="Cherries" FontSize="24" />
+
+            <TextBlock x:ConnectionId='56' x:Name="v48" Text="Avocado" FontSize="24" />
+            <TextBlock x:ConnectionId='57' x:Name="v49" Text="Grapes" FontSize="24" />
+            <TextBlock x:ConnectionId='58' x:Name="v50" Text="Guava" FontSize="24" />
+            <TextBlock x:ConnectionId='59' x:Name="v51" Text="Kiwi" FontSize="24" />
+            <TextBlock x:ConnectionId='60' x:Name="v52" Text="Mango" FontSize="24" />
+            <TextBlock x:ConnectionId='61' x:Name="v53" Text="Orange" FontSize="24" />
+            <TextBlock x:ConnectionId='62' x:Name="v54" Text="Papaya" FontSize="24" />
+            <TextBlock x:ConnectionId='63' x:Name="v55" Text="Peach" FontSize="24" />
+            
+            <TextBlock x:ConnectionId='64' x:Name="v56" Text="Pear" FontSize="24" />
+            <TextBlock x:ConnectionId='65' x:Name="v57" Text="Pineapple" FontSize="24" />
+            <TextBlock x:ConnectionId='66' x:Name="v58" Text="Plum" FontSize="24" />
+            <TextBlock x:ConnectionId='67' x:Name="v59" Text="Pomegranate" FontSize="24" />
+            <TextBlock x:ConnectionId='68' x:Name="v60" Text="Nectarine" FontSize="24" />
+            <TextBlock x:ConnectionId='69' x:Name="v61" Text="Watermelon" FontSize="24" />
+            <TextBlock x:ConnectionId='70' x:Name="v62" Text="Melon" FontSize="24" />
+            <TextBlock x:ConnectionId='71' x:Name="v63" Text="Strawberries" FontSize="24" />
+            <TextBlock x:ConnectionId='72' x:Name="v64" Text="Tangerine" FontSize="24" />
+            <TextBlock x:ConnectionId='73' x:Name="v65" Text="Blueberry" FontSize="24" />
+            <TextBlock x:ConnectionId='74' x:Name="v66" Text="Rutab/ripe dates" FontSize="24" />
+            <TextBlock x:ConnectionId='75' x:Name="v67" Text="Loquat" FontSize="24" />
+            <TextBlock x:ConnectionId='76' x:Name="v68" Text="Lemon" FontSize="24" />
+            <TextBlock x:ConnectionId='77' x:Name="v69" Text="Sweet Lemon" FontSize="24" />
+            <TextBlock x:ConnectionId='78' x:Name="v70" Text="Black berry" FontSize="24" />
+            <TextBlock x:ConnectionId='79' x:Name="v71" Text="Nabq (rhamnus)" FontSize="24" />
+            <TextBlock x:ConnectionId='80' x:Name="v72" Text="Quince" FontSize="24" />
+            <TextBlock x:ConnectionId='81' x:Name="v73" Text="Tamarind" FontSize="24" />
+            <TextBlock  Text="Dried Fruits" FontSize="26"  Width="391" TextAlignment="Center"  IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" />
+            <TextBlock x:ConnectionId='82' x:Name="v74" Text="Dried dates" FontSize="24" />
+            <TextBlock x:ConnectionId='83' x:Name="v75" Text="Dried figs" FontSize="24" />
+            <TextBlock x:ConnectionId='84' x:Name="v76" Text="Raisins" FontSize="24" />
+            <TextBlock x:ConnectionId='85' x:Name="v77" Text="Dried plum" FontSize="24" />
+            <TextBlock x:ConnectionId='86' x:Name="v78" Text="Dried Apricots" FontSize="24" />
+           
+        </ListBox>
+        
+        
+        <TextBlock x:ConnectionId='8' x:Name="txtb4" TextWrapping="Wrap" Margin="344,532,344,30" Grid.Row="1"  FontSize="26" FontFamily="Segoe UI" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsRightTapEnabled="False" IsTapEnabled="False" TextAlignment="Center" Foreground="#FFFBA7F3" />
+    </Grid>
+</Page>
+

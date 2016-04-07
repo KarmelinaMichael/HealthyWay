@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>71df899d-4547-4fc5-8e43-ee756625aa36</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>HealthApp</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\SampleDataSource.cs" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\0152.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\1c5f0161-06d2-41d8-8910-fd2eb8cd58ad.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\56newpic1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\beauty.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\beauty1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\beauty2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\beauty3.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\beauty4.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\beauty5.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\beauty6.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\beauty7.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\beauty8.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\beauty9.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\behealthy.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\calorie.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\e1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\e2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\e3.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\error.wav" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\exercise.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\exercise1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\food.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\food1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthapp.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy10.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy11.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy12.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy3.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy4.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy5.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy6.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy7.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy8.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\healthy9.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\r1.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\r2.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\r3.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\r4.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\reminder.gif" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\steak.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\weight.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)DataModel\SampleData.json" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ObservableDictionary.cs" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
+  </ItemGroup>
+</Project>

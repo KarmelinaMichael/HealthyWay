@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="HealthApp.recipe1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HealthApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="LightGreen" RequestedTheme="Light">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="Health App" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Health Recipes" FontSize="30" Margin="0,6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <Image Margin="0,-1,226,401" Source="Assets/r1.jpg" Stretch="Fill"/>
+            <HyperlinkButton NavigateUri="https://www.youtube.com/watch?v=Hrp99QoX9i8" 
+                            Content="Grilled Chicken Burgers" Background="#FFD9F5D9" Width="136" Height="39" Margin="160,44,0,434" FontSize="12"/>
+            <Image Margin="0,166,226,232" Source="Assets/r2.jpg" Stretch="Fill"/>
+            <HyperlinkButton NavigateUri="https://www.youtube.com/watch?v=OoMGK9zqOI8" 
+            	Content="Oven Roasted Potatoes" Background="#FFD9F5D9" Width="136" Height="39" Margin="160,199,0,279" FontSize="12"/>
+            <Image Margin="0,336,226,58" Source="Assets/r3.jpg" Stretch="Fill"/>
+            <HyperlinkButton NavigateUri="https://www.youtube.com/watch?v=sWKd5U6gl30" 
+            	Content="Spicy Sweet Potato Chips" Background="#FFD9F5D9" Width="136" Height="39" Margin="160,383,0,95" FontSize="12"/>
+        </Grid>
+    </Grid>
+</Page>

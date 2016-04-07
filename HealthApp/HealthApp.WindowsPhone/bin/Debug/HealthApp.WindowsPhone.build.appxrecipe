@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>KARMELINA</Machine>
+    <WindowsUser>lina</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>27b647ee-6165-4eb3-84df-ffd54ce2b895</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\HealthApp.WindowsPhone.exe">
+      <PackagePath>HealthApp.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\Assets\1.splash screen copy.scale-100.png">
+      <PackagePath>Assets\1.splash screen copy.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\Assets\Square71x71Logo.scale-100.png">
+      <PackagePath>Assets\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\Assets\HubBackground.theme-dark.png">
+      <PackagePath>Assets\HubBackground.theme-dark.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\Assets\HubBackground.theme-light.png">
+      <PackagePath>Assets\HubBackground.theme-light.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\Assets\WideLogo.scale-100.png">
+      <PackagePath>Assets\WideLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\0152.jpg">
+      <PackagePath>Assets\0152.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\1c5f0161-06d2-41d8-8910-fd2eb8cd58ad.jpg">
+      <PackagePath>Assets\1c5f0161-06d2-41d8-8910-fd2eb8cd58ad.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\56newpic1.jpg">
+      <PackagePath>Assets\56newpic1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty.jpg">
+      <PackagePath>Assets\beauty.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty1.jpg">
+      <PackagePath>Assets\beauty1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty2.jpg">
+      <PackagePath>Assets\beauty2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty3.jpg">
+      <PackagePath>Assets\beauty3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty4.jpg">
+      <PackagePath>Assets\beauty4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty5.jpg">
+      <PackagePath>Assets\beauty5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty6.jpg">
+      <PackagePath>Assets\beauty6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty7.jpg">
+      <PackagePath>Assets\beauty7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty8.jpg">
+      <PackagePath>Assets\beauty8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\beauty9.jpg">
+      <PackagePath>Assets\beauty9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\behealthy.jpg">
+      <PackagePath>Assets\behealthy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\calorie.jpg">
+      <PackagePath>Assets\calorie.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\e1.jpg">
+      <PackagePath>Assets\e1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\e2.jpg">
+      <PackagePath>Assets\e2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\e3.jpg">
+      <PackagePath>Assets\e3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\exercise.jpg">
+      <PackagePath>Assets\exercise.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\exercise1.jpg">
+      <PackagePath>Assets\exercise1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\food.jpg">
+      <PackagePath>Assets\food.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\food1.jpg">
+      <PackagePath>Assets\food1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthapp.jpg">
+      <PackagePath>Assets\healthapp.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy.jpg">
+      <PackagePath>Assets\healthy.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy1.jpg">
+      <PackagePath>Assets\healthy1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy10.jpg">
+      <PackagePath>Assets\healthy10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy11.jpg">
+      <PackagePath>Assets\healthy11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy12.jpg">
+      <PackagePath>Assets\healthy12.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy2.jpg">
+      <PackagePath>Assets\healthy2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy3.jpg">
+      <PackagePath>Assets\healthy3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy4.jpg">
+      <PackagePath>Assets\healthy4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy5.jpg">
+      <PackagePath>Assets\healthy5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy6.jpg">
+      <PackagePath>Assets\healthy6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy7.jpg">
+      <PackagePath>Assets\healthy7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy8.jpg">
+      <PackagePath>Assets\healthy8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\healthy9.jpg">
+      <PackagePath>Assets\healthy9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\r1.jpg">
+      <PackagePath>Assets\r1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\r2.jpg">
+      <PackagePath>Assets\r2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\r3.jpg">
+      <PackagePath>Assets\r3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\r4.jpg">
+      <PackagePath>Assets\r4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\steak.jpg">
+      <PackagePath>Assets\steak.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\weight.jpg">
+      <PackagePath>Assets\weight.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\error.wav">
+      <PackagePath>Assets\error.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\Assets\reminder.gif">
+      <PackagePath>Assets\reminder.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.Shared\DataModel\SampleData.json">
+      <PackagePath>DataModel\SampleData.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\bmi1.xbf">
+      <PackagePath>bmi1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\calorie1.xbf">
+      <PackagePath>calorie1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\HubPage.xbf">
+      <PackagePath>HubPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\recipe1.xbf">
+      <PackagePath>recipe1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\SectionPage.xbf">
+      <PackagePath>SectionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\ItemPage.xbf">
+      <PackagePath>ItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\HealthApp.WindowsPhone.xr.xml">
+      <PackagePath>HealthApp.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\lina\Documents\Visual Studio 2013\HealthApp\HealthApp\HealthApp.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
